@@ -2,7 +2,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import pandas as pd
 
-def engineer_features(df):
+def engineer_features(df, return_matrix=False):
     tfidf = TfidfVectorizer(stop_words='english')
     # Use the combined 'content' string to create features
     tfidf_matrix = tfidf.fit_transform(df['content'])
@@ -10,4 +10,6 @@ def engineer_features(df):
     # Compute cosine similarity between all movies based on text features
     cosine_sim = cosine_similarity(tfidf_matrix, tfidf_matrix)
     
+    if return_matrix:
+        return tfidf_matrix, cosine_sim
     return cosine_sim

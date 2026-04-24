@@ -23,4 +23,4 @@ def get_recommendations(title, df, cosine_sim, n=5):
     results['sim_score'] = scores
     results['reason'] = f"Similar Plot/Genre to {title}"
     
-    return results[['title', 'imdbRating', 'sim_score', 'reason']]
+    return results[['title', 'imdbRating', 'sim_score', 'reason', 'Plot', 'Poster']]
