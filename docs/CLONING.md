@@ -9,11 +9,11 @@ Make sure you have Git installed on your local machine.
 1. Open your terminal or command prompt.
 2. Clone the repo:
    ```bash
-   git clone https://github.com/himaniag10/Hybrid-Filtering.git
+   git clone https://github.com/himaniag10/WatchWise.git
    ```
 3. Navigate into the project directory:
    ```bash
-   cd Hybrid-Filtering
+   cd WatchWise
    ```
    
 Next, please see [Environment Setup](ENVIRONMENT.md) to configure your API keys and Python dependencies.

@@ -1,6 +1,6 @@
-# 🎬 NLP Content-Based Movie Recommender
+# 🎬 WatchWise — Intelligent NLP Movie Recommender
 
-Welcome to the **NLP Movie Recommender System**! This project utilizes Natural Language Processing (TF-IDF Vectorization) and Cosine Similarity to recommend movies based on their textual metadata, such as Plot, Genres, Directors, and Actors.
+WatchWise is a production-grade **Machine Learning** application that uses **Natural Language Processing (NLP)** to provide hyper-relevant movie recommendations based on textual metadata like Plot, Genres, Directors, and Actors. 
 
 Unlike basic Collaborative Filtering systems that require millions of user ratings, this system can recommend brand new movies instantly simply by reading their plot summaries.
 
